@@ -1,0 +1,133 @@
+body{
+  margin: 0px;
+  text-align:center;
+  font-family: sans-serif;
+font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  color: #66BFBF;
+width:50%;
+margin:50px auto 0 auto;
+font-family: 'Sue Ellen Francisco', cursive;
+font-size: 5.625rem;
+line-height: 2;
+}
+
+h2{
+    color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+
+a:hover{
+  color:pink;
+}
+.top-container{
+  background-color: #97DECE;
+  position: relative;
+  padding-top:100px;
+}
+
+.middle-container{
+margin: 100px 0px;
+
+}
+.contact-me{
+  margin-bottom: 64px;
+}
+.bottom-container{
+  padding: 50px;
+  height: 150px;
+background-color: #BFEAF5;
+
+}
+
+.copyright{
+  color: white;
+  margin:40px 0px;
+}
+
+.skill-row{
+  width: 50%;
+  /* position: relative;
+  left: 400px; */
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+.man{
+  height: 200px;
+  width: 200px;
+}
+.footer-link{
+  color: #11999E;
+}
+
+.chilli-img{
+  float: right;
+  width: 25%;
+  margin-right: 30px;
+}
+.code-img{
+  float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.code-skill-description{
+  clear: left;
+}
+.code-skill-subscription{
+  clear:right;
+}
+.footer-link{
+  margin: 20px;
+  padding: 20px;
+  text-decoration-line: none;
+}
+.btn {
+  display: inline-flex;
+  margin:20px auto 20px auto;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
